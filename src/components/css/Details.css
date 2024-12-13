@@ -1,0 +1,111 @@
+.details{
+    height:312px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.detailscontent{
+    width:750px;  /*721*/
+    height:168px
+}
+.heading{
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.detailscontent > p{
+    width:721px;
+    height:80px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    font-weight:400
+}
+.about-list{
+    display:none
+}
+@media screen and (max-width:830px){
+    .heading {
+        font-size: 48px;
+        line-height: 55px;
+      }
+}
+@media screen and (max-width:808px){
+    .heading {
+        font-size: 45px;
+        line-height: 55px;
+      }
+      .detailscontent {
+        margin-top: -110px;
+      }
+      .detailscontent > p {
+        width:calc(100% - 120px);
+        margin:20px auto;
+        height: auto;
+        font-size: 20px;
+        line-height: 37px;
+      }
+}
+@media screen and (max-width:720px){
+    
+      .detailscontent > p {
+        font-size: 18px;
+        line-height: 34px;
+      }
+      .heading {
+        font-size: 40px;
+        line-height: 48px;
+      }
+}
+@media screen and (max-width:650px){
+    .heading {
+        font-size: 42px;
+        line-height: 46px;
+      }
+}
+@media screen and (max-width:590px){
+    .heading {
+        font-size: 32px;
+        line-height: 36px;
+      }
+}
+
+@media screen and (max-width:480px){
+    .about-list{
+        width:calc(100% - 32px);
+        margin:auto;
+        height:46px;
+        font-size: 12px;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap:8px
+    }
+    .details{
+        width:calc(100% - 32px);
+        height:157px;
+        margin: auto;
+    }
+    .detailscontent {
+        width:calc(100% - 25px);
+        height: 29px;
+        text-align: center;
+        margin-top: -99px;
+      }
+    .heading{
+        font-size: 24px;
+        line-height: 28.8px;
+        letter-spacing: 0px;
+    }
+    .detailscontent>p{
+        font-size: 16px;
+        line-height: 22px;
+        width:100%;
+        height: auto;
+        text-align: center;
+        font-weight: 400;
+    }
+
+}
